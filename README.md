@@ -5,19 +5,18 @@
 # Setup
 
 ```sh
-npm install gitbook-cli -g
-mkdir gitbook-playground
-cd gitbook-playground/
-gitbook init
+$ npm install gitbook-cli -g
+$ mkdir gitbook-playground
+$ cd gitbook-playground/
+$ gitbook init
 
 # MAKE EDITS - see http://toolchain.gitbook.com/
 
 # server via built-in webserver
-gitbook serve
+$ gitbook serve
 
 # generate pdf
-gitbook pdf ./ ./mybook.pdf
-
+$ gitbook pdf ./ ./mybook.pdf
 ```
 
 # Introduction
